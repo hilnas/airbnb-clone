@@ -1,0 +1,102 @@
+{
+  "loading": "Cargando",
+  "require": "{name} es requerido",
+  "header": {
+    "menu": {
+      "reservationCenter": "Centro de reservas",
+      "history": "Historial de navegación",
+      "language": "Lenguaje",
+      "chinese": "简体中文",
+      "english": "English",
+      "spanish": "Español"
+    }
+  },
+  "footer": {
+    "menu": {
+      "support": "Asistencia",
+      "hosting": "Cómo ser anfitrión",
+      "about": "Acerca de",
+      "discover": "Discovery"
+    },
+    "submenu": {
+      "careers": "Empleo",
+      "news": "Sala de prensa",
+      "policy": "Política",
+      "accessibility": "Accesibilidad para todos",
+      "trustAndSafe": "Información de seguridad",
+      "invite": "Invitar a amigos",
+      "evection": "Viajes de negocios",
+      "magzine": "Airbnb Revista",
+      "airbnborg": "Airbnb.org",
+      "tryHosting": "Anímate a ser anfitrión",
+      "hospitality": "Hospitality",
+      "responsibility": "Ser un anfitrión responsable",
+      "experiences": "Experiencias",
+      "resources": "Recursos para anfitriones",
+      "help": "Centro de Ayuda",
+      "neighbors": "¿Problemas en tu colonia?"
+    },
+    "privacy": "Privacidad",
+    "terms": "Términos",
+    "sitemap": "Mapa del sitio"
+  },
+  "auth": {
+    "signinBtn": "Iniciar sesión",
+    "signupBtn": "Regístrate",
+    "signoutBtn": "Cerrar sesión",
+    "signinTab": "Iniciar sesión",
+    "signupTab": "Regístrate",
+    "phone": "Número de teléfono",
+    "password": "Clave"
+  },
+  "home": {
+    "title": "Recursos de vivienda con descuentos de primavera",
+    "subtitle": "Recurso de vivienda de calidad, menos de 5 veces",
+    "city": {
+      "hz": "Hangzhou",
+      "sh": "Shanghai",
+      "nj": "Nanjing",
+      "cd": "Chengdu",
+      "cq": "Chongqing",
+      "bj": "Beijing",
+      "sz": "Suzhou",
+      "gz": "Guangzhou"
+    },
+    "prev": "Prev",
+    "next": "Next"
+  },
+  "rooms": {
+    "share": {
+      "text": "Cuota",
+      "title": "Comparte este lugar con amigos y familiares"
+    },
+    "reserve": "Reserve",
+    "date": "Date",
+    "dateError": "Please pick a date",
+    "startDate": "Start date",
+    "endDate": "End date",
+    "guests": "Guests",
+    "guestsError": "Please select guests",
+    "guestsDescription": "This place has a maximum of {guestNumber} guests, not including infants. Pets aren't allowed.",
+    "adults": {
+      "title": "Adults",
+      "subtitle": "Age 13+"
+    },
+    "children": {
+      "title": "Children",
+      "subtitle": "Ages 2–12"
+    },
+    "infants": {
+      "title": "Infants",
+      "subtitle": "Under 2"
+    },
+    "close": "Close"
+  },
+  "reservation": {
+    "message": "Send a message to the host",
+    "more": "View more reservations"
+  },
+  "history": {
+    "empty": "Sin Datos"
+  }
+}
