@@ -32,10 +32,6 @@ const cities = [
   {
     name: 'home.city.sz',
     code: 'sz'
-  },
-  {
-    name: 'home.city.gz',
-    code: 'gz'
   }
 ];
 

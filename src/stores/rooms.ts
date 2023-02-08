@@ -4,7 +4,7 @@ import { defineStore } from 'pinia';
 
 export const useRoomsStore = defineStore('rooms', {
   state: () => ({
-    // all these properties will have their type inferred automatically
+    
     rooms: [
       {
         id: 0,
@@ -67,7 +67,7 @@ export const useRoomsStore = defineStore('rooms', {
           this.total = total;
         }
       } catch (error) {
-        const message = `获取 room list 出现异常: ${error}`;
+        const message = `Retrive room list error: ${error}`;
         ElMessage({ message, type: 'error', showClose: true });
       }
     },
@@ -78,7 +78,7 @@ export const useRoomsStore = defineStore('rooms', {
           this.roomDetails = response.result;
         }
       } catch (error) {
-        const message = `获取 room details 出现异常: ${error}`;
+        const message = `Retrive room detail error: ${error}`;
         ElMessage({ message, type: 'error', showClose: true });
       }
     },

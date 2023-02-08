@@ -11,5 +11,5 @@ export function fetchRoomListAPI(params: IRoomListParams): Promise<IResult> {
 export function fetchRoomDetailsAPI(
   params: IRoomDetailsParams
 ): Promise<IResult> {
-  return http.get('/api/room/room/getRoomDetail', { params });
+return http.get('/api/room/room/getRoomDetail', { params });
 }

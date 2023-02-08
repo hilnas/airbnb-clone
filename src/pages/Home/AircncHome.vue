@@ -10,33 +10,141 @@ useHead({
 
 <template>
   <div class="home w-full">
+
     <!-- * Banner -->
-    <div class="banner"></div>
+    <div class="banner">
+
+      <section id="hero" class="d-flex justify-content-center align-items-center row">
+            
+        <div class="header_text">
+           <!-- headline -->
+           <h1 class="text-center text-white" style="font-size: 60px">
+              Discover New Adventures
+            </h1>
+            <!-- subheading -->
+            <p class="text-center text-white lead" style="font-size: 30px">
+                Find the perfect vacation rental
+            </p>
+        </div>
+        
+        <!-- search bar -->
+        <div class="search_bar">
+          <br>
+          <input type="text" class="form-control" placeholder="Search Destinations" style="width: 500px; height: 50px; text-align: center;"/>
+          <button  class="button-65" role="button">Search</button>
+        </div>
+
+      </section>
+
+    </div>
+
 
     <!-- * Content -->
     <div class="content px-6 my-10">
-      
       <aircnc-home-list />
     </div>
+
   </div>
 </template>
 
 <style lang="scss" scoped>
 @import '@/assets/scss/abstracts/mixins.scss';
 
-.home {
-  .banner {
-    height: 530px;
+
+.banner {
     background: url('@/assets/images/banner.jpeg') no-repeat center/cover;
-  }
+    height: 515px;
+}
 
-  .content {
-    @include primary-wrapper;
+.header_text {
+    position: relative;
+    top: 120px;
+    left: 3%;
+    font-size: 20px;
+}
 
-    .title {
-      font-size: 22px;
-      line-height: 26px;
-    }
+.search_bar {
+    position: relative;
+    top: 130px;
+    left: 30%;
+    font-size: 20px;
+}
+
+.button-65 {
+  appearance: none;
+  backface-visibility: hidden;
+  background-color: #2f80ed;
+  border-style: none;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  height: 50px;
+  letter-spacing: normal;
+  line-height: 1.5;
+  outline: none;
+  overflow: hidden;
+  padding: 14px 30px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transform: translate3d(0, 0, 0);
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.button-65:hover {
+  background-color: #1366d6;
+  box-shadow: rgba(0, 0, 0, .05) 0 5px 30px, rgba(0, 0, 0, .05) 0 1px 4px;
+  opacity: 1;
+  transform: translateY(0);
+  transition-duration: .35s;
+}
+
+.button-65:hover:after {
+  opacity: .5;
+}
+
+.button-65:active {
+  box-shadow: rgba(0, 0, 0, .1) 0 3px 6px 0, rgba(0, 0, 0, .1) 0 0 10px 0, rgba(0, 0, 0, .1) 0 1px 4px -1px;
+  transform: translateY(2px);
+  transition-duration: .35s;
+}
+
+.button-65:active:after {
+  opacity: 1;
+}
+
+@media (min-width: 768px) {
+  .button-65 {
+    padding: 14px 22px;
+    width: 176px;
   }
 }
+
+.content {
+  @include primary-wrapper;
+  .title {
+    font-size: 22px;
+    line-height: 26px;
+  }
+}
+
+input {
+  font: inherit;
+  border: 1px solid #ccc;
+}
+
+
+
 </style>
+
+

@@ -64,12 +64,12 @@ export async function fetchHistoryListAPI(): Promise<IResult | undefined> {
 
     return {
       code: '000000',
-      message: '获取浏览记录成功',
+      message: 'Browser history retrive success',
       success: true,
       result: historyList || null
     };
   } catch (error) {
-    const message = `数据库操作出现异常: ${error}`;
+    const message = `Database error: ${error}`;
     ElMessage({ message, type: 'error', showClose: true });
   }
 }
